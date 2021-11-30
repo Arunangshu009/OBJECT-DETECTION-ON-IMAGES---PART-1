@@ -3,8 +3,11 @@ status="";
 
 function preload(){
     img= loadImage("India.jpg");
+    window.location("1st_index.html")
 }
-
+function previous_page(){
+window.location("1st_index.html");
+}
 function setup(){
     canvas= createCanvas(640, 420);
     canvas.center();
